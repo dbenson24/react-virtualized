@@ -10,7 +10,7 @@ import Grid from '../Grid';
 import ScrollSync from './ScrollSync';
 import cn from 'classnames';
 import styles from './ScrollSync.example.css';
-import scrollbarSize from 'dom-helpers/util/scrollbarSize';
+import scrollbarSize from '../utils/scrollbarSize';
 
 const LEFT_COLOR_FROM = hexToRgb('#471061');
 const LEFT_COLOR_TO = hexToRgb('#BC3959');

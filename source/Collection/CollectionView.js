@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React, {PureComponent} from 'react';
 import cn from 'classnames';
 import createCallbackMemoizer from '../utils/createCallbackMemoizer';
-import getScrollbarSize from 'dom-helpers/util/scrollbarSize';
+import getScrollbarSize from '../utils/scrollbarSize';
 
 // @TODO Merge Collection and CollectionView
 

@@ -26,7 +26,7 @@ import defaultOverscanIndicesGetter, {
 } from './defaultOverscanIndicesGetter';
 import updateScrollIndexHelper from './utils/updateScrollIndexHelper';
 import defaultCellRangeRenderer from './defaultCellRangeRenderer';
-import scrollbarSize from 'dom-helpers/util/scrollbarSize';
+import scrollbarSize from '../utils/scrollbarSize';
 import {
   requestAnimationTimeout,
   cancelAnimationTimeout,
